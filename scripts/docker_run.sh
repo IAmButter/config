@@ -5,4 +5,4 @@ docker run -ti --rm \
 	-v $(pwd):/home \
 	-w /home \
 	-u $(id -u) \
-	unnamed_project:latest $1 $2
+	butter:latest $1 $2
